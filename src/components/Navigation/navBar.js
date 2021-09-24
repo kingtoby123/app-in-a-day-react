@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-import Icons from "../helpers/icons";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export default class NavBar extends Component {
 	constructor(props) {
 		super(props);
