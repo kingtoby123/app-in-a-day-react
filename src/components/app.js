@@ -7,6 +7,7 @@ import Shop from "./pages/shop";
 import About from "./pages/about";
 import NoMatch from "./pages/no-match";
 import ProductDetail from "./pages/product-detail";
+import NavBar from "./Navigation/navBar";
 
 export default class App extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class App extends Component {
 
       <div className="app">
         <Router>
-          {/* <Navbar /> */}
+          <NavBar />
           <Switch>
             <Route exact path="/" component={Home} />
 
