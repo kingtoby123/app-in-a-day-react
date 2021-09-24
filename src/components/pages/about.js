@@ -5,7 +5,6 @@ import Header from './header';
 export default function about(props) {
     return (
         <div className="about-wrapper">
-           <Header />
             <div className="page-container">
                 <div className="content-wrapper">
                     <img src="https://i.postimg.cc/52GfVDY3/Big-Blue-Tank.jpg" alt="Featured Tank" id="BigBlueTank" width="25%"/>
@@ -40,7 +39,6 @@ export default function about(props) {
                     </div>
                 </div>             
             </div>
-            <Footer />
         </div>
     )
 }
