@@ -1,0 +1,38 @@
+.product-container-wrapper {
+  .buttons-wrapper {
+    border: 1px solid $secondaryLight;
+    background-color: $secondaryDark;
+    padding: 1rem;
+  }
+
+  .products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    .product-card {
+      max-height: 400px;
+      width: 100%;
+      border: 2px solid $darkOrange;
+      background-color: $secondaryLight;
+
+      .product-name-wrapper {
+        color: $secondaryDark;
+        font-family: "Great Vibes", cursive;
+      }
+
+      .product-photo-wrapper {
+        img {
+          width: 100%;
+          max-height: auto;
+          object-fit: cover;
+        }
+      }
+
+      .product-price-wrapper {
+        color: $secondaryDark;
+        font-family: "Great Vibes", cursive;
+      }
+    }
+  }
+}
