@@ -8,6 +8,8 @@ import About from "./pages/about";
 import NoMatch from "./pages/no-match";
 import ProductDetail from "./pages/product-detail";
 import NavBar from "./Navigation/navBar";
+import Footer from '../Navigation/footer';
+import Header from '../Navigation/header';
 
 export default class App extends Component {
   render() {
@@ -15,20 +17,21 @@ export default class App extends Component {
 
       <div className="app">
         <Router>
-          <NavBar />
-          <Switch>
-            <Route exact path="/" component={Home} />
+            <Header />
+            <Switch>
+                <Route exact path="/" component={Home} />
 
-            <Route path="/contact" component={Contact} />
+                <Route path="/contact" component={Contact} />
 
-            <Route path="/shop" component={Shop} />
+                <Route path="/shop" component={Shop} />
 
-            <Route path="/about" component={About} />
+                <Route path="/about" component={About} />
 
-            <Route exact path="/product/:slug" component={ProductDetail} />
+                <Route exact path="/product/:slug" component={ProductDetail} />
 
-            <Route component={NoMatch} />
-          </Switch>
+                <Route component={NoMatch} />
+            </Switch>
+            <Footer />
         </Router>
       </div>
     );

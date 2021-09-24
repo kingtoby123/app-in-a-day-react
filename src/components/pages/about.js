@@ -1,6 +1,5 @@
 import React from 'react';
-import Footer from './footer';
-import Header from './header';
+
 
 export default function about(props) {
     return (

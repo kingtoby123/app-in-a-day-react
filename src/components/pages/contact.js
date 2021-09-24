@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from "emailjs-com";
-import Footer from './footer';
-import Header from './header';
+
 
 export default function contact(props) {
     function sendEmail(e) {
