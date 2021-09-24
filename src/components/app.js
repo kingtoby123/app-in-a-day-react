@@ -11,11 +11,7 @@ import ProductDetail from "./pages/product-detail";
 export default class App extends Component {
   render() {
     return (
-<<<<<<< HEAD
-      <div className='app'>
-        <h1>July 5th Avenue</h1>
-        <h2>July 5th Avenue</h2>
-=======
+
       <div className="app">
         <Router>
           {/* <Navbar /> */}
@@ -33,7 +29,6 @@ export default class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </Router>
->>>>>>> 8867ae7e50ac9ac36dd6b4262b7733441213c931
       </div>
     );
   }
