@@ -1,0 +1,50 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  .featured-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30vw;
+    gap: 20px;
+    padding: 1rem;
+    border: 3px solid black;
+    background-color: #e2ce1c;
+    border-radius: 8px;
+    max-height: 400px;
+
+    .featured-photo-wrapper {
+      position: relative;
+      text-align: center;
+      color: whitesmoke;
+      border: 3px solid black;
+      border-radius: 3px;
+      max-width: 100%;
+      height: auto;
+
+      .name-wrapper {
+        h2 {
+          width: 30px;
+          height: 30px;
+          font-family: "Great Vibes", cursive;
+          position: absolute;
+          top: 0.2rem;
+          right: 3rem;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .home-links-wrapper {
+    .home-link {
+      h1 {
+        font-family: "Great Vibes", cursive;
+      }
+    }
+  }
+}
