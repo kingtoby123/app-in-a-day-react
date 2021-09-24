@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/home";
 import Contact from "./pages/contact";
@@ -17,7 +18,7 @@ export default class App extends Component {
 =======
       <div className="app">
         <Router>
-          <Navbar />
+          {/* <Navbar /> */}
           <Switch>
             <Route exact path="/" component={Home} />
 
