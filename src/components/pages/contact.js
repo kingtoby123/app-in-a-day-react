@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from "emailjs-com";
 
 
+
 export default function contact(props) {
     function sendEmail(e) {
         e.preventDefault();
@@ -14,7 +15,6 @@ export default function contact(props) {
 
     return (
         <div className="contact-wrapper">
-          <Header />
           <form className="form" onSubmit={sendEmail}>
               <div className="form-group">
               <input type="text" name="name" id="FullName" placeholder="Your name"/>
@@ -37,7 +37,6 @@ export default function contact(props) {
                   <button type="submit" className="btn" value="Send">Send</button>
               </div>
           </form>
-          <Footer />
         </div>
     )
 }

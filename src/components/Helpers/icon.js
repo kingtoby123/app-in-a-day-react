@@ -30,3 +30,5 @@ const Icons = () => {
 };
 
 export default Icons;
+
+// home, contact, marketing page, about
