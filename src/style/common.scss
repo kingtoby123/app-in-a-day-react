@@ -1,0 +1,134 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+li {
+    color: white;
+    text-shadow: none;
+}
+
+h3 {
+    color: white;
+}
+
+.navigation-wrapper {
+    height: 190px;
+    background-color: $primaryDark;
+    color:$secondaryDark;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    /* Flexbox container */
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    padding: 65px 100px;
+
+    .left-column {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            margin-right: 15px;
+
+            i {
+                font-size: 2em;
+            }
+        }
+
+        .contact-hours-wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+
+            .hours {
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+                font-size: 0.8em;
+                font-weight: bolder;
+            }
+        }
+    }
+    
+   
+    
+    .center-column {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 1px;
+        width: 500px;
+
+        .banner-image {
+
+            img {
+                width: 419px; 
+                height: 100%;
+            }
+        }
+    }
+
+    .right-column {
+        display:flex;
+        align-items: center;
+
+        .address-wrapper {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            text-align: right;
+
+            a {
+                color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+                text-decoration: none;
+                font-size: 0.9em;
+                transition: 0.5s;
+                font-weight: bolder;
+
+                &:hover {
+                    color: $lightGreen;
+                    font-weight: bolder;
+                }
+            }
+        }
+
+        .contact-icon {
+            margin-left: 15px;
+            font-size: 2em;
+
+            a {
+                color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+                transition: 0.5s;
+                font-weight: bolder;
+
+                &:hover {
+                    color: $lightGreen;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-link {
+        width: 70px;
+        text-align: center;
+        font-size: 1.3rem;
+
+        a {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            color: $secondaryDark;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+            text-decoration: none;
+            transition: 0.5s;
+
+            &:hover {
+                color: $lightGreen;
+                letter-spacing: 2px
+            }
+        }
+    }
+}

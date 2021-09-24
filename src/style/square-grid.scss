@@ -1,0 +1,39 @@
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .squares {
+        width: 1000px;
+
+        .square {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: -4px;
+
+            .img-wrapper {
+
+                img {
+                    width: 100%;
+                    height: 500px;
+                    object-fit: cover;
+                }
+            }
+
+            .square-text-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 42px;
+
+                h1 {
+                    color: $secondaryDark;
+                }
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
