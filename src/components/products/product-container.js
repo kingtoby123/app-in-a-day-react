@@ -7,7 +7,7 @@ export default function ProductContainer(props) {
   const [productData, setProductData] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1/5000/product/get")
+    fetch("https://app-in-a-day-fashion-api.herokuapp.com/product/get")
       .then((response) => response.json())
       .then((data) => setProductData(data));
   }, [props]);
@@ -16,34 +16,34 @@ export default function ProductContainer(props) {
     setProducts(productData);
   }, [productData]);
 
-  function filterByCategory(filter) {
+  function filterByCollection(filter) {
     setProducts(
       productData.filter((item) => {
-        return item.category === filter;
+        return item.collection === filter;
       })
     );
   }
 
   return (
-    <div className="">
+    <div className="product-container-wrapper">
       <div className="buttons-wrapper">
-        <button onClick={() => filterByCategory("Courtney's Favorites")}>
+        <button onClick={() => filterByCollection("Courtney")}>
           Courtney's Favorites
         </button>
-        <button onClick={() => filterByCategory("Patrick's Favorites")}>
+        <button onClick={() => filterByCollection("Patrick")}>
           Patrick's Favorites
         </button>
-        <button onClick={() => filterByCategory("Seth's Favorites")}>
+        <button onClick={() => filterByCollection("Seth")}>
           Seth's Favorites
         </button>
-        <button onClick={() => filterByCategory("Toby's Favorites")}>
+        <button onClick={() => filterByCollection("Toby")}>
           Toby's Favorites
         </button>
       </div>
 
       <div className="products-wrapper">
         {products.map((product) => (
-          <Product product={product} />
+          <Product key={product.id} product={product} />
         ))}
       </div>
     </div>
