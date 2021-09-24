@@ -8,6 +8,7 @@ import About from "./pages/about";
 import NoMatch from "./pages/no-match";
 import ProductDetail from "./pages/product-detail";
 import NavBar from "./Navigation/navBar";
+import Footer from "./Navigation/footer";
 
 export default class App extends Component {
   render() {
@@ -29,6 +30,7 @@ export default class App extends Component {
 
             <Route component={NoMatch} />
           </Switch>
+          <Footer/>
         </Router>
       </div>
     );
