@@ -9,8 +9,8 @@ import NoMatch from "./pages/no-match";
 import ProductDetail from "./pages/product-detail";
 import NavBar from "./Navigation/navBar";
 
-import Footer from '../Navigation/footer';
-import Header from '../Navigation/header';
+// import Footer from '../Navigation/footer';
+// import Header from '../Navigation/header';
 
 
 export default class App extends Component {
@@ -19,7 +19,7 @@ export default class App extends Component {
 
       <div className="app">
         <Router>
-            <Header />
+            {/* <Header /> */}
             <Switch>
                 <Route exact path="/" component={Home} />
 
@@ -34,7 +34,7 @@ export default class App extends Component {
 
                 <Route component={NoMatch} />
             </Switch>
-            <Footer />
+            {/* <Footer /> */}
 
         </Router>
       </div>
