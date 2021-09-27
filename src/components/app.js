@@ -9,33 +9,30 @@ import NoMatch from "./pages/no-match";
 import ProductDetail from "./pages/product-detail";
 import NavBar from "./Navigation/navBar";
 
-import Footer from '../Navigation/footer';
-import Header from '../Navigation/header';
 
+// import Footer from '../Navigation/footer';
+// import Header from '../Navigation/header';
 
 export default class App extends Component {
   render() {
     return (
-
       <div className="app">
         <Router>
-            <Header />
-            <Switch>
-                <Route exact path="/" component={Home} />
+          <NavBar />
+          <Switch>
+            <Route exact path="/" component={Home} />
 
+            <Route path="/contact" component={Contact} />
 
-                <Route path="/contact" component={Contact} />
+            <Route path="/shop" component={Shop} />
 
-                <Route path="/shop" component={Shop} />
+            <Route path="/about" component={About} />
 
-                <Route path="/about" component={About} />
+            <Route exact path="/product/:slug" component={ProductDetail} />
 
-                <Route exact path="/product/:slug" component={ProductDetail} />
-
-                <Route component={NoMatch} />
-            </Switch>
-            <Footer />
-
+            <Route component={NoMatch} />
+          </Switch>
+          {/* <Footer /> */}
         </Router>
       </div>
     );
