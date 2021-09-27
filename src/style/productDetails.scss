@@ -1,0 +1,23 @@
+.product-details-wrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+
+  .details-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px double $secondaryDark;
+    border-radius: 8px;
+
+    .details-image-wrapper {
+      img {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 10px;
+      }
+    }
+  }
+}
