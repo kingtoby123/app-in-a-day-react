@@ -10,9 +10,6 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="logo">
-                    <img src="https://i.postimg.cc/QC2CNjNd/saks-fifth-avenue-logo.jpg" alt="Logo"/>
-                </div>
 
                 <div className="footer-phone-hours">
                     <span className="phone">
