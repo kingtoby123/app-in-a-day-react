@@ -14,7 +14,7 @@ export default function Product({ product }) {
         </div>
 
         <div className="product-price-wrapper">
-          <h6>{`$${product.price}`}</h6>
+          <h4>{`$${product.price}`}</h4>
         </div>
       </Link>
     </div>
