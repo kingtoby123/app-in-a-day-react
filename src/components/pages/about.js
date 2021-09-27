@@ -13,29 +13,29 @@ export default function about(props) {
             <div className="60"></div>
 
             <div className="squares-wrapper">
-                <div className="squares">
-                    <div className="square">
-                        <div className="img-wrapper">
-                            <img src="https://i.postimg.cc/qvspQ3VM/Toby.jpg" alt="Triforce Tank" width="25%" height="25%"/>
-                        </div>
+              <div className="squares">
+                  <div className="square">
+                      <div className="img-wrapper">
+                          <img src="https://i.postimg.cc/qvspQ3VM/Toby.jpg" alt="Triforce Tank" width="25%" height="25%"/>
+                      </div>
 
-                        <div className="square-text-wrapper">
-                            <h1>Toby English</h1>
-                            <p className="about-us-text"> Hi, I'm Toby! I love Naruto and basketball! In my free time I fly across the country and jump into lakes!</p>
-                        </div>
-                    </div>             
-               
-                    <div className="square">
-                        <div className="square-text-wrapper">
-                            <h1>Seth Powell</h1>
-                            <p className="about-us-text">I'm Seth. I don't have time for you but I'll make a bot that will care...</p>
-                        </div>
+                      <div className="square-text-wrapper">
+                          <h1>Toby English</h1>
+                          <p className="about-us-text"> Hi, I'm Toby! I love Naruto and basketball! In my free time I fly across the country and jump into lakes!</p>
+                      </div>
+                  </div>             
+              
+                  <div className="square">
+                      <div className="square-text-wrapper">
+                          <h1>Seth Powell</h1>
+                          <p className="about-us-text">I'm Seth. I don't have time for you but I'll make a bot that will care...</p>
+                      </div>
 
-                        <div className="img-wrapper">
-                            <img src="https://i.postimg.cc/4Nhf70Wc/Seth.jpg" alt="FishRoom1-9" width="25%" height="25%"/>
-                        </div>
-                    </div>
-                </div>             
+                      <div className="img-wrapper">
+                          <img src="https://i.postimg.cc/4Nhf70Wc/Seth.jpg" alt="FishRoom1-9" width="25%" height="25%"/>
+                      </div>
+                  </div>
+              </div>             
             </div>
             <div className="squares-wrapper">
                 <div className="squares">
@@ -52,7 +52,7 @@ export default function about(props) {
                
                     <div className="square">
                         <div className="square-text-wrapper">
-                            <h1>Courtney Morris</h1>
+                            <h1>Courtney Shull</h1>
                             <p className="about-us-text">Umm, I'm Courtney. I'm really talented but I can't tell you that cause stress and awkwardness! ugh</p>
                         </div>
 
