@@ -1,20 +1,20 @@
 .page-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .page-container > .content-wrapper {
-    width: 1000px;
+  width: 1000px;
 }
 
 .page-container > .content-wrapper > #july5thCrew {
-    width: 350px;
-    margin: 25px 40px 20px 0px;
-    float: left;
-    border: 1px solid $secondaryDark;
+  width: 350px;
+  margin: 25px 40px 20px 0px;
+  float: left;
+  border: 1px solid $secondaryDark;
 }
 
 .page-container > .content-wrapper p {
-    letter-spacing: 1px;
-    line-height: 30px;
+  letter-spacing: 1px;
+  line-height: 30px;
 }

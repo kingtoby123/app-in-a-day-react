@@ -39,6 +39,7 @@ export default function ProductContainer(props) {
         <button onClick={() => filterByCollection("Toby")}>
           Toby's Favorites
         </button>
+        <button onClick={() => setProducts(productData)}>See All</button>
       </div>
 
       <div className="products-wrapper">
