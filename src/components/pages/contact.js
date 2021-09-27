@@ -34,6 +34,9 @@ export default function contact(props) {
               <div className="centered-btn-wrapper">
                   <button type="submit" className="btn" value="Send">Send</button>
               </div>
+
+              <div className="spacer10"></div>
+              <div className="spacer10"></div>
           </form>
         </div>
     )
