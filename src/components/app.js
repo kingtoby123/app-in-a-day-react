@@ -9,6 +9,7 @@ import NoMatch from "./pages/no-match";
 import ProductDetail from "./pages/product-detail";
 import NavBar from "./Navigation/navBar";
 
+
 // import Footer from '../Navigation/footer';
 // import Header from '../Navigation/header';
 
