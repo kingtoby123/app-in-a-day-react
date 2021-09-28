@@ -1,6 +1,7 @@
 .product-container-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: auto;
   height: auto;
   padding: 1rem;
@@ -51,10 +52,15 @@
       .product-name-wrapper {
         display: flex;
         justify-content: center;
-        color: $secondaryDark;
-        font-family: "Great Vibes", cursive;
+        color: black;
         text-align: center;
-        max-height: 60px;
+        text-shadow: 1px 2px 2px $secondaryDark;
+        max-height: 80px;
+
+        h4 {
+          @include textShadowHeader;
+          font-size: 1.25rem;
+        }
       }
 
       .product-photo-wrapper {
@@ -73,8 +79,10 @@
       .product-price-wrapper {
         display: flex;
         justify-content: center;
-        color: $secondaryDark;
-        font-family: "Great Vibes", cursive;
+
+        h4 {
+          @include textShadowHeader;
+        }
       }
     }
   }
