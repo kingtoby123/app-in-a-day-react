@@ -13,7 +13,7 @@ export default function Home() {
           </div>
         </div>
         <div className="featured-photo-wrapper">
-          <img src="https://i.postimg.cc/XvNpHdKk/Full-Outfit-Patrick.jpg" />
+          <img src="https://i.postimg.cc/yxBDyG00/white-shirt-blur-background-three-2.jpg" />
 
           <div className="name-wrapper">
             <h2>Patrick</h2>
