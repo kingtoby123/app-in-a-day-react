@@ -1,0 +1,6 @@
+@mixin textShadowHeader {
+  font-family: "Great Vibes", cursive;
+  color: black;
+  text-align: center;
+  text-shadow: 1px 2px 2px $secondaryDark;
+}
