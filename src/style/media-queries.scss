@@ -1,0 +1,263 @@
+@media (max-width: 615px) {
+
+    .app-wrapper {
+        width: 100vw;
+        padding: 0px;
+    }
+
+    .home-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+
+        .navigation-wrapper {
+            flex-direction: column;
+            align-items: center;
+            height: 25vh;
+            width: 87vw;
+            padding-top: 10px;
+    
+            .left-column {
+                order: 2;
+                margin-top: 10px;
+                margin-bottom: 15px;
+    
+                .contact-hours-wrapper {
+                    display: none;
+                }
+    
+                .icon {
+                    display: none;
+                }
+    
+            }
+    
+            .center-column {
+                order: 1;
+                width: 100vw;
+    
+                .banner-image {
+                    margin-bottom: auto;
+                    
+                    img {
+                        width: 100vw;
+                    }
+                }
+            }
+    
+            .right-column {
+                order: 3;
+                margin-top: 15px;
+    
+                .address-wrapper {
+                    display: none;
+                }
+    
+                .contact-icon {
+                    display: none;
+                }
+            }
+        }       
+
+        .links-wrapper {
+            margin-bottom: 20px;
+            height: 20px;
+            align-items: flex-start;
+
+            .nav-link {
+                margin-bottom: 10px;
+                font-size: 1.5em;
+                width: 50%;
+                margin-left: 2px;
+                margin-right: 2px;
+    
+    
+                a {
+                    width: 20vw;
+                    font-size: 20px;
+                }
+            }
+            
+        }
+
+        .fish-section {
+            padding: 50px 10px;
+            width: 85vw;
+            background-attachment: none;
+
+            .top-heading {
+                width: 33vw;
+
+                h1 {
+                    font-size: 25px;
+                    
+                }
+            }
+
+            .bottom-heading {
+                width: 33vw;
+
+                h1 {
+                    font-size: 25px;
+                    
+                }
+            }
+        }
+
+        .features-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            width: 85vw;
+            text-align: center;
+
+            .columns-wrapper {
+                margin: 0px;
+                justify-content: none;
+                width: 20vw;
+                margin-left: -25px;
+
+                .column {
+                    margin: 2px !important;
+
+                    &:nth-child(1) {
+                        font-size: 15px !important;
+                        height: 33vh;
+                    }
+                }
+
+            }
+
+        }
+        
+    }   
+    
+    .map {
+        width: 85vw !important;
+    }
+    
+    .footer {
+        height: 25%;
+
+        .logo {
+            height: none;
+            width: 97vw;
+        }
+
+        .footer-phone-hours {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .links-wrapper {
+            width: auto;
+            margin-left: -20px;
+        }
+
+        .social-media-icons-wrapper {
+            margin-top: 15px;
+        }
+
+        .copyright-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .skewed-header {
+        height: 40vh;
+
+        .skewed-header-wrapper {
+
+            .skewed-header-content {
+                flex-direction: column;
+                width: 95vw;
+
+                .links-wrapper {
+                    justify-content: space-around;
+                    width: 80vw;
+
+                    .nav-link {
+                        width: 85vw;
+
+                    }
+                }
+            }
+        }
+
+        .header-bg {
+            background-size: 550px;
+        }
+    }
+
+    .page-container {
+        padding-left: 21px;
+        padding-right: 21px;
+
+        .content-wrapper {
+
+            #BigBlueTank {
+                margin: 0px 0px 25px 0px;
+                width: 100%;
+            }
+        }
+    }
+
+    .square {
+        grid-template-columns: 1fr !important;
+
+        .square-text-wrapper {
+            order: 1;
+
+            h1 {
+                text-align: center;}
+
+            ul {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+        .img-wrapper {
+            order: 2;
+
+            img {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+
+    .contact-grid-wrapper {
+        flex-direction: column;
+        width: 100vw !important;
+        grid-template-columns: 1fr !important;
+        grid-gap: 10px !important;
+
+        .logo {
+            width: 90vw;
+        }
+    }
+
+    .form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem;
+    }
+
+    .btn {
+        z-index: 99;
+    }
+
+    .logo {
+        height: 75px;
+        width: 100vw;
+        align-items: flex-start;
+    }
+}
