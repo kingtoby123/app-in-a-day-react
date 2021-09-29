@@ -35,13 +35,12 @@
     
             .center-column {
                 order: 1;
-                width: 100vw;
     
                 .banner-image {
                     margin-bottom: auto;
                     
                     img {
-                        width: 100vw;
+                        width: 40vw;
                     }
                 }
             }
@@ -68,7 +67,6 @@
             .nav-link {
                 margin-bottom: 10px;
                 font-size: 1.5em;
-                width: 50%;
                 margin-left: 2px;
                 margin-right: 2px;
     
