@@ -168,41 +168,19 @@
         }
     }
 
-    .skewed-header {
-        height: 40vh;
+    .about-wrapper {
+        padding-bottom: 40px;
 
-        .skewed-header-wrapper {
+        .page-container {
+            padding-left: 21px;
+            padding-right: 21px;
 
-            .skewed-header-content {
-                flex-direction: column;
-                width: 95vw;
+            .content-wrapper {
 
-                .links-wrapper {
-                    justify-content: space-around;
-                    width: 80vw;
-
-                    .nav-link {
-                        width: 85vw;
-
-                    }
+                #july5thCrew {
+                    margin: 0px 0px 25px 0px;
+                    width: 100%;
                 }
-            }
-        }
-
-        .header-bg {
-            background-size: 550px;
-        }
-    }
-
-    .page-container {
-        padding-left: 21px;
-        padding-right: 21px;
-
-        .content-wrapper {
-
-            #BigBlueTank {
-                margin: 0px 0px 25px 0px;
-                width: 100%;
             }
         }
     }
