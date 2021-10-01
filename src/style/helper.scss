@@ -1,25 +1,28 @@
 .spacer60 {
-    height: 60px;
-    width: 100%;
+  height: 60px;
+  width: 100%;
 }
 
 .spacer10 {
-    height: 10px;
-    width: 100%;
+  height: 10px;
+  width: 100%;
 }
 
-
+.spacer300 {
+  height: 300px;
+  width: 100%;
+}
 
 .anchor-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .anchor-link:focus {
-    outline: none;
-}    
+  outline: none;
+}
 
 .anchor-link h1::after {
-    font-family: "Font Awesome 5 free";
-    content: " \f0c1";
-    font-weight: 900;
+  font-family: "Font Awesome 5 free";
+  content: " \f0c1";
+  font-weight: 900;
 }

@@ -73,7 +73,7 @@
       justify-content: space-evenly;
       align-items: center;
       h1 {
-        font-family: "Great Vibes", cursive;
+        @include textShadowHeader;
       }
     }
   }
