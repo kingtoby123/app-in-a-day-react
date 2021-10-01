@@ -27,7 +27,7 @@ export default function ProductContainer(props) {
   }
 
   return (
-    <Container fluid className="product-container-wrapper">
+    <Container className="product-container-wrapper">
       <Container className="buttons-wrapper">
         <div>
           <Button onClick={() => filterByCollection("Courtney")}>
@@ -48,10 +48,10 @@ export default function ProductContainer(props) {
 
       <Container>
         <Row className="products-wrapper">
-          <Row fluid>
+          <Row>
             {products.map((product) => (
-              <Col key={product.id} fluid>
-                <Row key={product.id} fluid>
+              <Col key={product.id}>
+                <Row key={product.id}>
                   <Product key={product.id} product={product} />
                 </Row>
               </Col>

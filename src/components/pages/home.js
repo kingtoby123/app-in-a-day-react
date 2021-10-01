@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import { Overlay } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
@@ -7,31 +9,46 @@ export default function Home() {
       <div className="featured-content-wrapper">
         <div className="featured-photo-wrapper">
           <img src="https://i.postimg.cc/FztVMTHL/Other-Pic-Courtney.jpg" />
-
-          <div className="name-wrapper">
-            <h2>Courtney</h2>
-          </div>
+          <NavLink
+            to="/shop"
+            style={{ textDecoration: "none" }}
+            className="image-overlay"
+          >
+            <h2>Browse Courtney's Favorites</h2>
+          </NavLink>
         </div>
+
         <div className="featured-photo-wrapper">
           <img src="https://i.postimg.cc/yxBDyG00/white-shirt-blur-background-three-2.jpg" />
-
-          <div className="name-wrapper">
-            <h2>Patrick</h2>
-          </div>
+          <NavLink
+            to="/shop"
+            style={{ textDecoration: "none" }}
+            className="image-overlay"
+          >
+            <h2>Browse Patrick's Favorites</h2>
+          </NavLink>
         </div>
+
         <div className="featured-photo-wrapper">
           <img src="https://i.postimg.cc/CM8L4cTV/Full-Outfit-Seth.jpg" />
-
-          <div className="name-wrapper">
-            <h2>Seth</h2>
-          </div>
+          <NavLink
+            to="/shop"
+            style={{ textDecoration: "none" }}
+            className="image-overlay"
+          >
+            <h2>Browse Seth's Favorites</h2>
+          </NavLink>
         </div>
+
         <div className="featured-photo-wrapper">
           <img src="https://i.postimg.cc/Y052fm8k/Full-Outfit-Tobye.jpg" />
-
-          <div className="name-wrapper">
-            <h2>Toby</h2>
-          </div>
+          <NavLink
+            to="/shop"
+            style={{ textDecoration: "none" }}
+            className="image-overlay"
+          >
+            <h2>Browse Toby's Favorites</h2>
+          </NavLink>
         </div>
       </div>
 
