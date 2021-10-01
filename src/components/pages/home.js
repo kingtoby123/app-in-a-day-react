@@ -65,6 +65,8 @@ export default function Home() {
           </NavLink>
         </div>
       </div>
+
+      <div className="spacer300" />
     </div>
   );
 }
