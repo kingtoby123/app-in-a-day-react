@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Button, Container, Grid, Row, Col, Form } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import Product from "./product";
 
@@ -25,28 +27,38 @@ export default function ProductContainer(props) {
   }
 
   return (
-    <div className="product-container-wrapper">
-      <div className="buttons-wrapper">
-        <button onClick={() => filterByCollection("Courtney")}>
-          Courtney's Favorites
-        </button>
-        <button onClick={() => filterByCollection("Patrick")}>
-          Patrick's Favorites
-        </button>
-        <button onClick={() => filterByCollection("Seth")}>
-          Seth's Favorites
-        </button>
-        <button onClick={() => filterByCollection("Toby")}>
-          Toby's Favorites
-        </button>
-        <button onClick={() => setProducts(productData)}>See All</button>
-      </div>
+    <Container className="product-container-wrapper">
+      <Container className="buttons-wrapper">
+        <div>
+          <Button onClick={() => filterByCollection("Courtney")}>
+            Courtney's Favorites
+          </Button>
+          <Button onClick={() => filterByCollection("Patrick")}>
+            Patrick's Favorites
+          </Button>
+          <Button onClick={() => filterByCollection("Seth")}>
+            Seth's Favorites
+          </Button>
+          <Button onClick={() => filterByCollection("Toby")}>
+            Toby's Favorites
+          </Button>
+          <Button onClick={() => setProducts(productData)}>See All</Button>
+        </div>
+      </Container>
 
-      <div className="products-wrapper">
-        {products.map((product) => (
-          <Product key={product.id} product={product} />
-        ))}
-      </div>
-    </div>
+      <Container>
+        <Row className="products-wrapper">
+          <Row>
+            {products.map((product) => (
+              <Col key={product.id}>
+                <Row key={product.id}>
+                  <Product key={product.id} product={product} />
+                </Row>
+              </Col>
+            ))}
+          </Row>
+        </Row>
+      </Container>
+    </Container>
   );
 }
