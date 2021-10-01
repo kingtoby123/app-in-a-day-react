@@ -12,13 +12,13 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            height: 90vh;
+            height: 300px;
             width: 90vw;
-            padding-top: 10px;
+            padding-top: 100px;
+
     
             .left-column {
                 display: none;
-                grid-template-columns: 1fr;                
     
                 .contact-hours-wrapper {
                     display: grid;
@@ -31,7 +31,6 @@
                 order: 1;
     
                 .banner-image {
-                    margin-bottom: auto;
                     
                     img {
 
@@ -77,31 +76,31 @@
 
         
 
-        .features-section {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            justify-items: center;
-            width: 85vw;
-            text-align: center;
+        // .features-section {
+        //     display: grid;
+        //     grid-template-columns: 1fr 1fr 1fr;
+        //     justify-items: center;
+        //     width: 85vw;
+        //     text-align: center;
 
-            .columns-wrapper {
-                margin: 0px;
-                justify-content: none;
-                width: 20vw;
-                margin-left: -25px;
+        //     .columns-wrapper {
+        //         margin: 0px;
+        //         justify-content: none;
+        //         width: 20vw;
+        //         margin-left: -25px;
 
-                .column {
-                    margin: 2px !important;
+        //         .column {
+        //             margin: 2px !important;
 
-                    &:nth-child(1) {
-                        font-size: 15px !important;
-                        height: 33vh;
-                    }
-                }
+        //             &:nth-child(1) {
+        //                 font-size: 15px !important;
+        //                 height: 33vh;
+        //             }
+        //         }
 
-            }
+        //     }
 
-        }
+        // }
         
     
     .map {
