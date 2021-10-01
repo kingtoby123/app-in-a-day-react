@@ -1,10 +1,10 @@
 .navigation-wrapper {
-    height: 500px;
+    height: 65vh;
     background-color: $primaryDark;
     color: $secondaryDark;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 65px 100px;
 

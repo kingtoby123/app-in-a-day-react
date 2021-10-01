@@ -5,31 +5,25 @@
         padding: 0px;
     }
 
-    .home-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
+        
 
         .navigation-wrapper {
-            flex-direction: column;
+            display: flex;
             align-items: center;
-            height: 25vh;
-            width: 87vw;
+            justify-content: center;
+            text-align: center;
+            height: 90vh;
+            width: 90vw;
             padding-top: 10px;
     
             .left-column {
-                order: 2;
-                margin-top: 10px;
-                margin-bottom: 15px;
+                display: none;
+                grid-template-columns: 1fr;                
     
                 .contact-hours-wrapper {
-                    display: none;
+                    display: grid;
                 }
     
-                .icon {
-                    display: none;
-                }
     
             }
     
@@ -41,17 +35,34 @@
                     margin-bottom: auto;
                     
                     img {
-                        width: 100vw;
+                        width: 75vw;
                     }
                 }
+
+                .links-wrapper {
+                    height: 20vh;
+        
+                    .nav-link {
+                        font-size: 1.5em;
+                        width: 45%;
+            
+            
+                        a {
+                            width: 20vw;
+                            font-size: 5vw;
+                        }
+                    }
+                    
+                }
+
+                
             }
     
             .right-column {
-                order: 3;
-                margin-top: 15px;
+                display: none;
     
                 .address-wrapper {
-                    display: none;
+                    display: grid;
                 }
     
                 .contact-icon {
@@ -60,50 +71,9 @@
             }
         }       
 
-        .links-wrapper {
-            margin-bottom: 20px;
-            height: 20px;
-            align-items: flex-start;
+        
 
-            .nav-link {
-                margin-bottom: 10px;
-                font-size: 1.5em;
-                width: 50%;
-                margin-left: 2px;
-                margin-right: 2px;
-    
-    
-                a {
-                    width: 20vw;
-                    font-size: 20px;
-                }
-            }
-            
-        }
-
-        .fish-section {
-            padding: 50px 10px;
-            width: 85vw;
-            background-attachment: none;
-
-            .top-heading {
-                width: 33vw;
-
-                h1 {
-                    font-size: 25px;
-                    
-                }
-            }
-
-            .bottom-heading {
-                width: 33vw;
-
-                h1 {
-                    font-size: 25px;
-                    
-                }
-            }
-        }
+        
 
         .features-section {
             display: grid;
@@ -131,7 +101,6 @@
 
         }
         
-    }   
     
     .map {
         width: 85vw !important;
