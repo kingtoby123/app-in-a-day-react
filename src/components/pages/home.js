@@ -1,7 +1,5 @@
 import React, { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { Overlay } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
@@ -52,6 +50,8 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="spacer10" />
+
       <div className="home-links-wrapper">
         <div className="home-link">
           <NavLink to="/shop">
@@ -65,6 +65,8 @@ export default function Home() {
           </NavLink>
         </div>
       </div>
+
+      <div className="spacer100" />
     </div>
   );
 }
