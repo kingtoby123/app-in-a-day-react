@@ -61,11 +61,7 @@
     "node-sass": "^4.13.1",
     "postcss-loader": "^2.1.6",
     "react": "16.13.1",
-<<<<<<< HEAD
-    "react-bootstrap": "^2.0.0-rc.0",
-=======
     "react-bootstrap": "^1.6.4",
->>>>>>> 6fc4bce861c211aee0b58b157ecc6638b17bcfcb
     "react-dom": "16.13.1",
     "react-redux": "7.2.0",
     "react-router": "5.1.2",
